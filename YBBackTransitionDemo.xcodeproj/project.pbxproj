@@ -23,6 +23,8 @@
 		61123F6D1CE16EC9001DE7CA /* UIScrollView+__YBTransistion.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F641CE16EC9001DE7CA /* UIScrollView+__YBTransistion.m */; };
 		61123F6E1CE16EC9001DE7CA /* UIView+__YBBackTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F661CE16EC9001DE7CA /* UIView+__YBBackTransition.m */; };
 		61123F6F1CE16EC9001DE7CA /* YBBackTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F681CE16EC9001DE7CA /* YBBackTransition.m */; };
+		61123F711CE17265001DE7CA /* 维斯特洛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61123F701CE17265001DE7CA /* 维斯特洛.jpg */; };
+		61123F731CE1726D001DE7CA /* 维斯特洛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61123F721CE1726D001DE7CA /* 维斯特洛.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		61123F661CE16EC9001DE7CA /* UIView+__YBBackTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+__YBBackTransition.m"; sourceTree = "<group>"; };
 		61123F671CE16EC9001DE7CA /* YBBackTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBackTransition.h; sourceTree = "<group>"; };
 		61123F681CE16EC9001DE7CA /* YBBackTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBackTransition.m; sourceTree = "<group>"; };
+		61123F701CE17265001DE7CA /* 维斯特洛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "维斯特洛.jpg"; sourceTree = "<group>"; };
+		61123F721CE1726D001DE7CA /* 维斯特洛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "维斯特洛.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,7 @@
 		61123F3D1CE16760001DE7CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				61123F701CE17265001DE7CA /* 维斯特洛.jpg */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 		61123F3E1CE16760001DE7CA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				61123F721CE1726D001DE7CA /* 维斯特洛.jpg */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -331,8 +337,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61123F731CE1726D001DE7CA /* 维斯特洛.jpg in Resources */,
 				61123F191CE166A5001DE7CA /* LaunchScreen.storyboard in Resources */,
 				61123F161CE166A5001DE7CA /* Assets.xcassets in Resources */,
+				61123F711CE17265001DE7CA /* 维斯特洛.jpg in Resources */,
 				61123F141CE166A5001DE7CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,6 +604,7 @@
 				61123F351CE166A5001DE7CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61123F361CE166A5001DE7CA /* Build configuration list for PBXNativeTarget "YBBackTransitionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +613,7 @@
 				61123F381CE166A5001DE7CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61123F391CE166A5001DE7CA /* Build configuration list for PBXNativeTarget "YBBackTransitionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -612,6 +622,7 @@
 				61123F3B1CE166A5001DE7CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
