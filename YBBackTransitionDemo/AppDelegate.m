@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewControllerTest.h"
+
+#import "YBBackTransition.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    [YBBackTransition ybBackTransitionConfig];//只需一行
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UINavigationController * rootNav = [[UINavigationController alloc]initWithRootViewController:[ViewControllerTest new]];
+    self.window.rootViewController = rootNav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

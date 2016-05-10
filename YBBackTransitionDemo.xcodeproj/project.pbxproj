@@ -15,6 +15,14 @@
 		61123F191CE166A5001DE7CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61123F171CE166A5001DE7CA /* LaunchScreen.storyboard */; };
 		61123F241CE166A5001DE7CA /* YBBackTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F231CE166A5001DE7CA /* YBBackTransitionDemoTests.m */; };
 		61123F2F1CE166A5001DE7CA /* YBBackTransitionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F2E1CE166A5001DE7CA /* YBBackTransitionDemoUITests.m */; };
+		61123F431CE167BC001DE7CA /* ViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F421CE167BC001DE7CA /* ViewControllerTest.m */; };
+		61123F691CE16EC9001DE7CA /* NSObject+__YBRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F5C1CE16EC9001DE7CA /* NSObject+__YBRuntime.m */; };
+		61123F6A1CE16EC9001DE7CA /* UIGestureRecognizer+__YBBackTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F5E1CE16EC9001DE7CA /* UIGestureRecognizer+__YBBackTransition.m */; };
+		61123F6B1CE16EC9001DE7CA /* UINavigationController+__YBBackTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F601CE16EC9001DE7CA /* UINavigationController+__YBBackTransition.m */; };
+		61123F6C1CE16EC9001DE7CA /* UIPercentDrivenInteractiveTransition+__YBBackTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F621CE16EC9001DE7CA /* UIPercentDrivenInteractiveTransition+__YBBackTransition.m */; };
+		61123F6D1CE16EC9001DE7CA /* UIScrollView+__YBTransistion.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F641CE16EC9001DE7CA /* UIScrollView+__YBTransistion.m */; };
+		61123F6E1CE16EC9001DE7CA /* UIView+__YBBackTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F661CE16EC9001DE7CA /* UIView+__YBBackTransition.m */; };
+		61123F6F1CE16EC9001DE7CA /* YBBackTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 61123F681CE16EC9001DE7CA /* YBBackTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		61123F2A1CE166A5001DE7CA /* YBBackTransitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBBackTransitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61123F2E1CE166A5001DE7CA /* YBBackTransitionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBBackTransitionDemoUITests.m; sourceTree = "<group>"; };
 		61123F301CE166A5001DE7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61123F411CE167BC001DE7CA /* ViewControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTest.h; sourceTree = "<group>"; };
+		61123F421CE167BC001DE7CA /* ViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTest.m; sourceTree = "<group>"; };
+		61123F5B1CE16EC9001DE7CA /* NSObject+__YBRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+__YBRuntime.h"; sourceTree = "<group>"; };
+		61123F5C1CE16EC9001DE7CA /* NSObject+__YBRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+__YBRuntime.m"; sourceTree = "<group>"; };
+		61123F5D1CE16EC9001DE7CA /* UIGestureRecognizer+__YBBackTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+__YBBackTransition.h"; sourceTree = "<group>"; };
+		61123F5E1CE16EC9001DE7CA /* UIGestureRecognizer+__YBBackTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+__YBBackTransition.m"; sourceTree = "<group>"; };
+		61123F5F1CE16EC9001DE7CA /* UINavigationController+__YBBackTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+__YBBackTransition.h"; sourceTree = "<group>"; };
+		61123F601CE16EC9001DE7CA /* UINavigationController+__YBBackTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+__YBBackTransition.m"; sourceTree = "<group>"; };
+		61123F611CE16EC9001DE7CA /* UIPercentDrivenInteractiveTransition+__YBBackTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPercentDrivenInteractiveTransition+__YBBackTransition.h"; sourceTree = "<group>"; };
+		61123F621CE16EC9001DE7CA /* UIPercentDrivenInteractiveTransition+__YBBackTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPercentDrivenInteractiveTransition+__YBBackTransition.m"; sourceTree = "<group>"; };
+		61123F631CE16EC9001DE7CA /* UIScrollView+__YBTransistion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+__YBTransistion.h"; sourceTree = "<group>"; };
+		61123F641CE16EC9001DE7CA /* UIScrollView+__YBTransistion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+__YBTransistion.m"; sourceTree = "<group>"; };
+		61123F651CE16EC9001DE7CA /* UIView+__YBBackTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+__YBBackTransition.h"; sourceTree = "<group>"; };
+		61123F661CE16EC9001DE7CA /* UIView+__YBBackTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+__YBBackTransition.m"; sourceTree = "<group>"; };
+		61123F671CE16EC9001DE7CA /* YBBackTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBackTransition.h; sourceTree = "<group>"; };
+		61123F681CE16EC9001DE7CA /* YBBackTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBackTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,9 @@
 		61123EFD1CE166A5001DE7CA = {
 			isa = PBXGroup;
 			children = (
+				61123F3C1CE16760001DE7CA /* ClassFile */,
+				61123F3D1CE16760001DE7CA /* Frameworks */,
+				61123F3E1CE16760001DE7CA /* Resource */,
 				61123F081CE166A5001DE7CA /* YBBackTransitionDemo */,
 				61123F221CE166A5001DE7CA /* YBBackTransitionDemoTests */,
 				61123F2D1CE166A5001DE7CA /* YBBackTransitionDemoUITests */,
@@ -138,6 +165,67 @@
 				61123F301CE166A5001DE7CA /* Info.plist */,
 			);
 			path = YBBackTransitionDemoUITests;
+			sourceTree = "<group>";
+		};
+		61123F3C1CE16760001DE7CA /* ClassFile */ = {
+			isa = PBXGroup;
+			children = (
+				61123F5A1CE16EC9001DE7CA /* YBBackTransition */,
+				61123F3F1CE16799001DE7CA /* Classes */,
+				61123F401CE16799001DE7CA /* Lib */,
+			);
+			path = ClassFile;
+			sourceTree = "<group>";
+		};
+		61123F3D1CE16760001DE7CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		61123F3E1CE16760001DE7CA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		61123F3F1CE16799001DE7CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				61123F411CE167BC001DE7CA /* ViewControllerTest.h */,
+				61123F421CE167BC001DE7CA /* ViewControllerTest.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		61123F401CE16799001DE7CA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		61123F5A1CE16EC9001DE7CA /* YBBackTransition */ = {
+			isa = PBXGroup;
+			children = (
+				61123F5B1CE16EC9001DE7CA /* NSObject+__YBRuntime.h */,
+				61123F5C1CE16EC9001DE7CA /* NSObject+__YBRuntime.m */,
+				61123F5D1CE16EC9001DE7CA /* UIGestureRecognizer+__YBBackTransition.h */,
+				61123F5E1CE16EC9001DE7CA /* UIGestureRecognizer+__YBBackTransition.m */,
+				61123F5F1CE16EC9001DE7CA /* UINavigationController+__YBBackTransition.h */,
+				61123F601CE16EC9001DE7CA /* UINavigationController+__YBBackTransition.m */,
+				61123F611CE16EC9001DE7CA /* UIPercentDrivenInteractiveTransition+__YBBackTransition.h */,
+				61123F621CE16EC9001DE7CA /* UIPercentDrivenInteractiveTransition+__YBBackTransition.m */,
+				61123F631CE16EC9001DE7CA /* UIScrollView+__YBTransistion.h */,
+				61123F641CE16EC9001DE7CA /* UIScrollView+__YBTransistion.m */,
+				61123F651CE16EC9001DE7CA /* UIView+__YBBackTransition.h */,
+				61123F661CE16EC9001DE7CA /* UIView+__YBBackTransition.m */,
+				61123F671CE16EC9001DE7CA /* YBBackTransition.h */,
+				61123F681CE16EC9001DE7CA /* YBBackTransition.m */,
+			);
+			path = YBBackTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +360,15 @@
 			files = (
 				61123F111CE166A5001DE7CA /* ViewController.m in Sources */,
 				61123F0E1CE166A5001DE7CA /* AppDelegate.m in Sources */,
+				61123F6D1CE16EC9001DE7CA /* UIScrollView+__YBTransistion.m in Sources */,
+				61123F6A1CE16EC9001DE7CA /* UIGestureRecognizer+__YBBackTransition.m in Sources */,
+				61123F431CE167BC001DE7CA /* ViewControllerTest.m in Sources */,
+				61123F6E1CE16EC9001DE7CA /* UIView+__YBBackTransition.m in Sources */,
+				61123F6C1CE16EC9001DE7CA /* UIPercentDrivenInteractiveTransition+__YBBackTransition.m in Sources */,
 				61123F0B1CE166A5001DE7CA /* main.m in Sources */,
+				61123F691CE16EC9001DE7CA /* NSObject+__YBRuntime.m in Sources */,
+				61123F6F1CE16EC9001DE7CA /* YBBackTransition.m in Sources */,
+				61123F6B1CE16EC9001DE7CA /* UINavigationController+__YBBackTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -413,7 +509,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = YBBackTransitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mushan.YBBackTransitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +522,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = YBBackTransitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mushan.YBBackTransitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
