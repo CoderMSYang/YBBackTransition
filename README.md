@@ -10,3 +10,5 @@
 2，全屏幕触摸侧滑返回功能
 
 3，微博:http://weibo.com/437156349
+
+![haha](/Resource/屏幕录制.gif)
