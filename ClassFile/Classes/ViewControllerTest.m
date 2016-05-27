@@ -7,6 +7,9 @@
 //
 
 #import "ViewControllerTest.h"
+#import "GoNextButton.h"
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
 
 @interface ViewControllerTest ()
 @property(nonatomic,weak) UIButton * button;
@@ -26,22 +29,48 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self setNavBar];
+    
+    [self dataInit];
+    
+    [self viewInit];
+    
+}
+-(void)setNavBar{
     [self setTitle:@"测试"];
+}
+-(void)dataInit{
+    
+}
+-(void)viewInit{
+    
+    self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.button];
 }
-
 -(UIButton *)button{
-    _button = [UIButton buttonWithType:UIButtonTypeCustom];
-    _button.bounds = CGRectMake(0,0, 100, 50);
-    _button.center = CGPointMake(self.view.frame.size.width/2, 100);
-    [_button setTitle:@"进入" forState:UIControlStateNormal];
-    [_button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [_button addTarget:self action:@selector(gotoNextController:) forControlEvents:UIControlEventTouchUpInside];
+    if (!_button) {
+        _button = [self creatButtonWithType:UIButtonTypeCustom
+                                   andFrame:CGRectMake(SCREEN_WIDTH/2-50, 100,100,50)
+                                   andTitle:@"进入"
+                              andTitleColor:[UIColor blueColor]
+                                  andAction:@selector(gotoNextController:)];
+        
+    }
     return _button;
 }
-
+-(UIButton *)creatButtonWithType:(UIButtonType)type
+                        andFrame:(CGRect)frame
+                        andTitle:(NSString *)title
+                   andTitleColor:(UIColor *)color
+                       andAction:(SEL)sel{
+    UIButton * button = [UIButton buttonWithType:type];
+    button.frame = frame;
+    [button setTitle:title forState:UIControlStateNormal];
+    [button setTitleColor:color forState:UIControlStateNormal];
+    [button addTarget:self action:sel forControlEvents:UIControlEventTouchUpInside];
+    return  button;
+}
 -(void)gotoNextController:(UIButton *)button{
     
     ViewControllerTest * testVC = [ViewControllerTest new];
