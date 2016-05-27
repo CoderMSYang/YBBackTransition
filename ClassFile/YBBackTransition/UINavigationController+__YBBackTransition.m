@@ -21,15 +21,17 @@ static NSString * y_UINavigationController___YBBackTransition = @"y_UINavigation
     [self __YBBackTransition_viewDidLoad];
     if (!self.__YBBackTransition_panGestureRecognizer && [self.interactivePopGestureRecognizer.delegate isKindOfClass:[UIPercentDrivenInteractiveTransition class]]) {
         
-        /******边缘******/
-//        UIScreenEdgePanGestureRecognizer * gestureRecognizer = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self.interactivePopGestureRecognizer.delegate action:NSSelectorFromString(@"handleNavigationTransition:")];
-        /******边缘******/
-        
         UIPanGestureRecognizer * gestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self.interactivePopGestureRecognizer.delegate action:NSSelectorFromString(@"handleNavigationTransition:")];
+        
+        
+        /******边缘******/
+        //        UIScreenEdgePanGestureRecognizer * gestureRecognizer = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self.interactivePopGestureRecognizer.delegate action:NSSelectorFromString(@"handleNavigationTransition:")];
+        /******边缘******/
         gestureRecognizer.delegate = self;
         gestureRecognizer.__YBBackTransition_navController = self;
         self.__YBBackTransition_panGestureRecognizer = gestureRecognizer;
         self.interactivePopGestureRecognizer.enabled = NO;
+
     }
     [self.view addGestureRecognizer:self.__YBBackTransition_panGestureRecognizer];
 }
