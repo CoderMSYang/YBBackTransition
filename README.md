@@ -5,11 +5,11 @@
 
 主要功能：
 
+1，解决了NavigationBar自定义返回键后侧滑功能失效的问题
+
 Demo演示视频如下：
 
 ![haha](/Resource/屏幕录制.gif)
-
-1，解决了NavigationBar自定义返回键后侧滑功能失效的问题
 
 2，全屏幕触摸侧滑返回功能
 
