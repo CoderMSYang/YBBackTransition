@@ -7,7 +7,6 @@
 //
 
 #import "UINavigationController+__YBBackTransition.h"
-#import "UIView+__YBBackTransition.h"
 #import "UIGestureRecognizer+__YBBackTransition.h"
 static NSString * y_UINavigationController___YBBackTransition = @"y_UINavigationController___YBBackTransition";
 @implementation UINavigationController (__YBBackTransition)
