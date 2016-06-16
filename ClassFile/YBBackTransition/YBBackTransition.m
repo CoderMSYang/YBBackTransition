@@ -10,7 +10,6 @@
 #import "UIPercentDrivenInteractiveTransition+__YBBackTransition.h"
 #import "UIGestureRecognizer+__YBBackTransition.h"
 #import "UINavigationController+__YBBackTransition.h"
-#import "UIView+__YBBackTransition.h"
 #import "NSObject+__YBRuntime.h"
 
 @implementation YBBackTransition
