@@ -1,7 +1,9 @@
 # YBBackTransition
 用法：
 
-在AppDelegate中引入头文件    #import"YBBackTransition.h"     仅需一行代码即可搞定 [YBBackTransition ybBackTransitionConfig]；
+在AppDelegate中引入头文件    #import"YBBackTransition.h"  
+
+仅需一行代码即可搞定 [YBBackTransition ybBackTransitionConfig]；
 
 主要功能：
 
